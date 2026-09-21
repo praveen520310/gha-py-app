@@ -6,7 +6,7 @@ def create_app():
 
     @app.get("/")
     def index():
-        message = os.getenv("MESSAGE", "Hello from devopsbykrishnareddy! 🚀")
+        message = os.getenv("MESSAGE", "Hello from praveen! 🚀")
         # Return HTML with green message
         return f"""
         <html>
